@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.Jumbotron {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: url("./Image/background.jpg");
+  background-size: cover;
+  color: rgb(215, 218, 227);
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  text-decoration: none;
+  color: black;
+}
