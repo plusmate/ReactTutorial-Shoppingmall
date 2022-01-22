@@ -45,12 +45,57 @@
   color: rgb(215, 218, 227);
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
 }
 
-a:hover{
+a:hover {
   text-decoration: none;
   color: black;
+}
+
+.low-in-stock {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.loading-image-cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.loading-left {
+  margin-top: 10px;
+  background-image: url(./Image/loading.gif);
+  background-size: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: 98%;
+  width: 100%;
+}
+
+.loading-font{
+  font-size: 20px;
+}
+
+.loading-right {
+  margin-top: 10px;
+  background-image: url(./Image/loading.gif);
+  background-size: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: 2%;
+  width: 100%;
+}
+
+.stock-alert{
+  height: 70px;
+}
+
+.goods-search{
+  margin-bottom: 10px;
 }
