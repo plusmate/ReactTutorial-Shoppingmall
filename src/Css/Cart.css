@@ -1,0 +1,33 @@
+.undisable-alert {
+  margin-top: 20px;
+}
+
+.ad-close {
+  background: #ffe591;
+  border: none;
+  margin-right: 5px;
+  size: 200px;
+}
+
+.ad-background {
+  width: 100%;
+  background: #ffe591;
+  border-radius: 5px;
+  margin: auto;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.table-background{
+  margin: 0 auto;
+  width: 300px;
+}
+
+.delete-cart-goods {
+  float: right;
+  border: none;
+  background-color: white;
+  margin-top: 5.5px;
+}

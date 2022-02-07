@@ -1,0 +1,38 @@
+@import "./reset.scss"; //다른 scss파일 import
+
+@mixin alertFunction() {
+  background: #eeeeee;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+}
+
+.tabAnimation-enter {
+  opacity: 0;
+} //애니메이션 시작때 적용할 css
+
+.tabAnimation-enter-active {
+  opacity: 1;
+  transition: all 500ms;
+} //애니메이션 동작때 적용할 css
+
+$MainColor: #ff0000; //색상 저장 가능
+
+.red {
+  color: $MainColor;
+}
+
+.my-alert {
+  @include alertFunction();
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.my-alert2 {
+  @extend .my-alert; //.myalert 가져오기
+  background: #ffe591;
+}
